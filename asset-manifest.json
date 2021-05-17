@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/p0rtfolio/static/css/main.002285d0.chunk.css",
-    "main.js": "/p0rtfolio/static/js/main.79b5876e.chunk.js",
-    "main.js.map": "/p0rtfolio/static/js/main.79b5876e.chunk.js.map",
-    "runtime-main.js": "/p0rtfolio/static/js/runtime-main.e5aa4471.js",
-    "runtime-main.js.map": "/p0rtfolio/static/js/runtime-main.e5aa4471.js.map",
+    "main.css": "/p0rtfolio/static/css/main.4fa21de8.chunk.css",
+    "main.js": "/p0rtfolio/static/js/main.5a38fc06.chunk.js",
+    "main.js.map": "/p0rtfolio/static/js/main.5a38fc06.chunk.js.map",
+    "runtime-main.js": "/p0rtfolio/static/js/runtime-main.7ac36cc9.js",
+    "runtime-main.js.map": "/p0rtfolio/static/js/runtime-main.7ac36cc9.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/p0rtfolio/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.1c3af49b.chunk.js": "/p0rtfolio/static/js/2.1c3af49b.chunk.js",
-    "static/js/2.1c3af49b.chunk.js.map": "/p0rtfolio/static/js/2.1c3af49b.chunk.js.map",
-    "static/js/3.27dfd85c.chunk.js": "/p0rtfolio/static/js/3.27dfd85c.chunk.js",
-    "static/js/3.27dfd85c.chunk.js.map": "/p0rtfolio/static/js/3.27dfd85c.chunk.js.map",
+    "static/js/2.33917a26.chunk.js": "/p0rtfolio/static/js/2.33917a26.chunk.js",
+    "static/js/2.33917a26.chunk.js.map": "/p0rtfolio/static/js/2.33917a26.chunk.js.map",
+    "static/js/3.0b63749a.chunk.js": "/p0rtfolio/static/js/3.0b63749a.chunk.js",
+    "static/js/3.0b63749a.chunk.js.map": "/p0rtfolio/static/js/3.0b63749a.chunk.js.map",
     "index.html": "/p0rtfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/p0rtfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.002285d0.chunk.css.map": "/p0rtfolio/static/css/main.002285d0.chunk.css.map",
-    "static/js/2.1c3af49b.chunk.js.LICENSE.txt": "/p0rtfolio/static/js/2.1c3af49b.chunk.js.LICENSE.txt",
+    "static/css/main.4fa21de8.chunk.css.map": "/p0rtfolio/static/css/main.4fa21de8.chunk.css.map",
+    "static/js/2.33917a26.chunk.js.LICENSE.txt": "/p0rtfolio/static/js/2.33917a26.chunk.js.LICENSE.txt",
     "static/media/comicgame.9ab7fdce.png": "/p0rtfolio/static/media/comicgame.9ab7fdce.png",
     "static/media/App.css": "/p0rtfolio/static/media/theLite.31e421aa.png",
     "static/media/home.8bab29c4.png": "/p0rtfolio/static/media/home.8bab29c4.png",
@@ -22,10 +22,10 @@
     "static/media/todo.6cac39df.png": "/p0rtfolio/static/media/todo.6cac39df.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e5aa4471.js",
+    "static/js/runtime-main.7ac36cc9.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.1c3af49b.chunk.js",
-    "static/css/main.002285d0.chunk.css",
-    "static/js/main.79b5876e.chunk.js"
+    "static/js/2.33917a26.chunk.js",
+    "static/css/main.4fa21de8.chunk.css",
+    "static/js/main.5a38fc06.chunk.js"
   ]
 }
