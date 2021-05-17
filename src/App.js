@@ -50,11 +50,11 @@ const IMAGES = [
   },
 
   {
-    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-    thumbnail:
-      "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
+    src: "https://i.imgur.com/h5w6C2v.png",
+    thumbnail: "https://i.imgur.com/h5w6C2v.png",
     thumbnailWidth: 320,
     thumbnailHeight: 212,
+    caption: "Portrait of a child",
   },
 
   {
