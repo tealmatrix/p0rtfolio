@@ -4,8 +4,11 @@ import Container from "react-bootstrap/Container";
 import Gallery from "react-photo-gallery";
 import { Button, Navbar, Nav, NavDropdown, Jumbotron } from "react-bootstrap";
 import { render } from "react-dom";
+import home from "./images/home.png";
+import comicgame from "./images/comicgame.png";
+import precog from "./images/precog.png";
+import todo from "./images/todo.png";
 import "./App.css";
-
 const photos = [
   {
     src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
@@ -122,30 +125,62 @@ function App() {
           <h1>Teal Matrix</h1>
           <p>Welcome to my portfolio</p>
         </div>
-        <p></p>
       </Jumbotron>
+      <section className="section-3" id="section-3">
+        <h1 className="section-heading section-3-heading">Bytes</h1>
+        <div className="projects-wrapper center">
+          <div className="row">
+            <div className="project">
+              <div className="project-text">
+                <h2 className="project-name">Home</h2>
+                <h4 className="project-technologies">HTML / CSS / JS</h4>
+              </div>
+              <img src={home} className="project-img" alt="asdf" />
+              <a href="http://justbreath.ca/#" className="project-link">
+                Go to Site
+              </a>
+            </div>
+            <div className="project">
+              <div className="project-text">
+                <h2 className="project-name">Comic Game App</h2>
+                <h4 className="project-technologies">HTML / CSS / JS</h4>
+              </div>
+              <img src={comicgame} className="project-img" alt="asdf" />
+              <a href="http://justbreath.ca/comicGame" className="project-link">
+                Go to Site
+              </a>
+            </div>
+          </div>
 
-      <div className="d-flex justify-content-center" id="bytes">
-        <h2 className="d-flex justify-content-center">Bytes</h2>
-        <ul className="bytes">
-          <li>
-            <a href="http://justbreath.ca/#">http://justbreath.ca</a>
-          </li>
-          <li>
-            <a href="http://justbreath.ca/comicGame">
-              http://justbreath.ca/comicGame
-            </a>
-          </li>
-          <li>
-            <a href="http://justbreath.ca/PRECOG/pick.html">
-              http://justbreath.ca/PRECOG/pick.html
-            </a>
-          </li>
-          <li>
-            <a href="http://justbreath.ca/Todo/">http://justbreath.ca/Todo/</a>
-          </li>
-        </ul>
-      </div>
+          <div className="row">
+            <div className="project">
+              <div className="project-text">
+                <h2 className="project-name">Precog App</h2>
+                <h4 className="project-technologies">HTML / CSS / JS</h4>
+              </div>
+              <img src={precog} className="project-img" alt="asdf" />
+              <a
+                href="http://justbreath.ca/PRECOG/pick.html"
+                className="project-link"
+              >
+                Go to Site
+              </a>
+            </div>
+
+            <div className="project">
+              <div className="project-text">
+                <h2 className="project-name">Todo App</h2>
+                <h4 className="project-technologies">HTML / CSS / JS</h4>
+              </div>
+              <img src={todo} className="project-img" alt="asdf" />
+              <a href="http://justbreath.ca/Todo/" className="project-link">
+                Go to Site
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <div className="middle-test">
         <Jumbotron className="middle"></Jumbotron>
       </div>
