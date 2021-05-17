@@ -92,12 +92,16 @@ function App() {
       </Navbar>
       <Jumbotron fluid className="top d-flex justify-content-center !important">
         <div id="home" class="banner">
-          <h1>Teal Matrix</h1>
-          <p>Welcome to my portfolio</p>
+          <h1 id="name">Teal Matrix</h1>
         </div>
       </Jumbotron>
       <section className="section-3" id="section-3">
-        <h1 className="section-heading section-3-heading">Bytes</h1>
+        <h1
+          id="byteh1"
+          className="section-heading section-3-heading d-flex justify-content-center"
+        >
+          Bytes
+        </h1>
         <div className="projects-wrapper center">
           <div className="row">
             <div className="project">
