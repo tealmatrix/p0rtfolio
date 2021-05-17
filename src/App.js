@@ -81,8 +81,8 @@ function App() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav me-auto">
           <Nav>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link eventKey={2} href="#bytes">
+            <Nav.Link href="#top">Home</Nav.Link>
+            <Nav.Link eventKey={2} href="#section-3">
               Bytes
             </Nav.Link>
             <Nav.Link href="#pixels">Pixels</Nav.Link>
@@ -90,7 +90,11 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Jumbotron fluid className="top d-flex justify-content-center !important">
+      <Jumbotron
+        id="top"
+        fluid
+        className="top d-flex justify-content-center !important"
+      >
         <div id="home" class="banner">
           <h1 id="name">Teal Matrix</h1>
         </div>
@@ -170,7 +174,9 @@ function App() {
 
       <div className="div">
         <Jumbotron className="bottom"></Jumbotron>
-        <h2 className="contact">Contact Me</h2>
+        <h2 className="contact" id="contact">
+          Contact Me
+        </h2>
         <div className="social-medias d-flex justify-content-center">
           <a
             href="http://www.instagram.com/tealmatrix"
