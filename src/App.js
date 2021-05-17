@@ -14,8 +14,8 @@ import todo from "./images/todo.png";
 import "./App.css";
 const IMAGES = [
   {
-    src: "https://i.imgur.com/9ISOP2E.gif",
-    thumbnail: "https://i.imgur.com/9ISOP2E.gif",
+    src: "https://i.imgur.com/nQJXe93.png",
+    thumbnail: "https://i.imgur.com/nQJXe93.png",
     thumbnailWidth: 320,
     thumbnailHeight: 174,
     caption: "Mountains",
