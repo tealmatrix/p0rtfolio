@@ -137,8 +137,8 @@ function App() {
             </a>
           </li>
           <li>
-            <a href="http://justbreath.ca/pre-cog/pick.html">
-              http://justbreath.ca/pre-cog/pick.html
+            <a href="http://justbreath.ca/PRECOG/pick.html">
+              http://justbreath.ca/PRECOG/pick.html
             </a>
           </li>
           <li>
