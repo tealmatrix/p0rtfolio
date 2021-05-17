@@ -154,6 +154,7 @@ function App() {
       <div className="middle-test">
         <Jumbotron className="middle"></Jumbotron>
       </div>
+
       <div id="gallery">
         <h2 className="d-flex justify-content-center" id="pixels">
           Pixels

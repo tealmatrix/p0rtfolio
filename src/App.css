@@ -140,6 +140,8 @@
 
 .project:hover {
   box-shadow: 1rem 1rem 1rem #777;
+
+  background-color: transparent !important;
 }
 
 .project-text {
@@ -149,11 +151,13 @@
   top: -10rem;
   z-index: 10;
   transition: top 0.3s;
+  background-color: transparent !important;
 }
 
 .project:hover .project-text {
   top: 5rem;
   transition: top 0.3s 0.3s;
+  background-color: transparent !important;
 }
 
 .project-name {
@@ -161,21 +165,25 @@
   font-weight: 700;
   color: #333;
   text-transform: capitalize;
+  background-color: transparent !important;
 }
 
 .project-technologies {
   font-size: 1.8rem;
   color: #e95e0d;
+  background-color: transparent !important;
 }
 
 .project-img {
   max-width: 400px;
   min-height: 400px;
   transition: opacity 0.3s;
+  background-color: transparent !important;
 }
 
 .project:hover .project-img {
   opacity: 0.2;
+  background-color: transparent !important;
 }
 
 .project-link {
