@@ -24,7 +24,7 @@ const IMAGES = [
     src: "https://i.imgur.com/Xtfb9Mg.png",
     thumbnail: "https://i.imgur.com/Xtfb9Mg.png",
     thumbnailWidth: 320,
-    thumbnailHeight: 212,
+    thumbnailHeight: 320,
     caption: "Self Portrait",
   },
   {
@@ -38,7 +38,7 @@ const IMAGES = [
     src: "https://i.imgur.com/okKbPFr.png",
     thumbnail: "https://i.imgur.com/okKbPFr.png",
     thumbnailWidth: 320,
-    thumbnailHeight: 212,
+    thumbnailHeight: 200,
     caption: "Portrait of a Reaper",
   },
   {
