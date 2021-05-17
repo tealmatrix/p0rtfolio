@@ -95,11 +95,11 @@
 }
 
 .project h2 {
-  color: black;
+  color: white;
 }
 
 .project h4 {
-  color: black;
+  color: white;
 }
 
 .section-3 {
@@ -114,6 +114,7 @@
 
 .projects-wrapper {
   flex-wrap: wrap;
+  background-color: black;
 }
 
 .project {
@@ -122,10 +123,11 @@
   justify-content: center;
   align-items: center;
   margin: 1rem;
-  background-color: #fff;
+  background-color: black;
   box-shadow: 0.3rem 0.3rem 0.5rem #777;
   position: relative;
   overflow: hidden;
+  color: white;
   transition: box-shadow 0.5s;
 }
 
@@ -241,6 +243,10 @@
 
 #gallery {
   background-color: black;
+  padding-bottom: 0px;
+}
+.html {
+  background-color: black;
 }
 
 /* Style all font awesome icons */
@@ -278,16 +284,40 @@
 
 #contact {
   background-color: black;
-  padding-top: 75px;
+  padding-top: 155px;
 }
 
 .social-medias {
   background-color: black;
-  padding: 50px;
+  color: white;
+  padding-top: 50px;
 }
 
+.contact {
+  background-color: black;
+  color: white;
+  margin-bottom: 0px;
+  text-align: center;
+  padding-top: 300px;
+}
+
+#ReactGridGallery {
+  background-color: black;
+}
 .navbar-dark {
   background-color: black;
+}
+
+.bottom {
+  background: url("https://images.unsplash.com/photo-1484821582734-6c6c9f99a672?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1491&q=80");
+  background-size: cover;
+  opacity: 0.7;
+  background-color: Black;
+  z-index: 10;
+  min-width: 300px;
+  border-radius: 0px !important;
+  height: 100vh;
+  margin-top: 180px;
 }
 @media (max-width: 600px) {
   html a {

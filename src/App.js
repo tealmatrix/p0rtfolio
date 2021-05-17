@@ -6,96 +6,66 @@ import { Button, Navbar, Nav, NavDropdown, Jumbotron } from "react-bootstrap";
 import { render } from "react-dom";
 import home from "./images/home.png";
 import comicgame from "./images/comicgame.png";
+
+import Gallery1 from "react-grid-gallery";
+
 import precog from "./images/precog.png";
 import todo from "./images/todo.png";
 import "./App.css";
-const photos = [
+const IMAGES = [
   {
-    src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
-    width: 4,
-    height: 3,
+    src: "https://i.imgur.com/9ISOP2E.gif",
+    thumbnail: "https://i.imgur.com/9ISOP2E.gif",
+    thumbnailWidth: 320,
+    thumbnailHeight: 174,
+    caption: "Mountains",
   },
   {
-    src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-    width: 1,
-    height: 1,
+    src: "https://i.imgur.com/Xtfb9Mg.png",
+    thumbnail: "https://i.imgur.com/Xtfb9Mg.png",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "Self Portrait",
   },
   {
-    src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
-    width: 3,
-    height: 4,
+    src: "https://i.imgur.com/pUGwQU3.jpg",
+    thumbnail: "https://i.imgur.com/pUGwQU3.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "Portrait of a woman",
   },
   {
-    src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
-    width: 3,
-    height: 4,
+    src: "https://i.imgur.com/okKbPFr.png",
+    thumbnail: "https://i.imgur.com/okKbPFr.png",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "Portrait of a Reaper",
   },
   {
-    src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-    width: 3,
-    height: 4,
+    src: "https://i.imgur.com/88hQr43.gif",
+    thumbnail: "https://i.imgur.com/88hQr43.gif",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "Landscape, Garden of Eden",
   },
+
   {
-    src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
-    width: 4,
-    height: 3,
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail:
+      "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
   },
+
   {
-    src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-    width: 3,
-    height: 4,
-  },
-  {
-    src: "https://source.unsplash.com/PpOHJezOalU/800x599",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://source.unsplash.com/XiDA78wAZVw/600x799",
-    width: 3,
-    height: 4,
-  },
-  {
-    src: "https://source.unsplash.com/x8xJpClTvR0/800x599",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://source.unsplash.com/u9cG4cuJ6bU/4927x1000",
-    width: 4927,
-    height: 1000,
-  },
-  {
-    src: "https://source.unsplash.com/qGQNmBE7mYw/800x599",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://source.unsplash.com/NuO6iTBkHxE/800x599",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://source.unsplash.com/pF1ug8ysTtY/600x400",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://source.unsplash.com/A-fubu9QJxE/800x533",
-    width: 4,
-    height: 3,
-  },
-  {
-    src: "https://source.unsplash.com/5P91SF0zNsI/740x494",
-    width: 4,
-    height: 3,
+    src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
+    thumbnail:
+      "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
   },
 ];
+
 function App() {
   return (
     <div>
@@ -184,22 +154,29 @@ function App() {
       <div className="middle-test">
         <Jumbotron className="middle"></Jumbotron>
       </div>
-      <h2 className="d-flex justify-content-center" id="pixels">
-        Pixels
-      </h2>
       <div id="gallery">
-        <Gallery photos={photos} />
+        <h2 className="d-flex justify-content-center" id="pixels">
+          Pixels
+        </h2>
+        <div>
+          <Gallery1 className="galleryMain" images={IMAGES} />
+        </div>
       </div>
-      <div className="contact d-flex justify-content-center" id="contact">
-        <h2>Teal.Matrix</h2>
-      </div>
-      <div className="social-medias d-flex justify-content-center">
-        <a
-          href="http://www.instagram.com/tealmatrix"
-          class="fa fa-instagram"
-        ></a>
-        <a href="http://www.facebook.com/tealmatrix" class="fa fa-facebook"></a>
-        <a href="http://www.twitter.com/tealmatrix" class="fa fa-twitter"></a>
+
+      <div className="div">
+        <Jumbotron className="bottom"></Jumbotron>
+        <h2 className="contact">Contact Me</h2>
+        <div className="social-medias d-flex justify-content-center">
+          <a
+            href="http://www.instagram.com/tealmatrix"
+            class="fa fa-instagram"
+          ></a>
+          <a
+            href="http://www.facebook.com/tealmatrix"
+            class="fa fa-facebook"
+          ></a>
+          <a href="http://www.twitter.com/tealmatrix" class="fa fa-twitter"></a>
+        </div>
       </div>
     </div>
   );
