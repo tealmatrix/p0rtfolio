@@ -361,12 +361,21 @@
   }
 }
 @media (max-width: 600px) {
+  #name {
+    padding-top: 725px;
+  }
   html a {
     font-size: 55%;
   }
   #gallery {
     background-color: black;
     overflow: hidden;
+  }
+  .project {
+    margin: 20px auto;
+  }
+  .projects-wrapper {
+    margin-top: 50px;
   }
 }
 
